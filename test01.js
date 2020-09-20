@@ -10,17 +10,15 @@ if (answer >=0) {
 
 //課題3&4&5//
 var animals=['パンダ','ライオン','キリン'];
-var answer = ('好きな動物は何ですか');
+var answer = prompt('好きな動物は何ですか');
 
 var i =0;
-while (i < animals.lengh) {
-    if (i ==='ライオン'){
+while (i < animals.length) {
+    if (answer ==='ライオン'){
+        alert(animals[1]);
+        alert(animals.indexOf('ライオン'));
         break;
-        alert('ライオン');
     }
-    alert(animals[i]);
-    i++;
-}
 
 //課題6&7//
 var animals =[
