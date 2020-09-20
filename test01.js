@@ -19,6 +19,7 @@ while (i < animals.length) {
         alert(animals.indexOf('ライオン'));
         break;
     }
+}
 
 //課題6&7//
 var animals =[
@@ -29,8 +30,9 @@ var animals =[
 
 alert (animals[1].wight);
 
+
 //課題8//
-function calc(x){
+function calc(x) {
     return x^2*3.14;
 }
     alert (calc(15));
